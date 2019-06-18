@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Setting"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить" />
+        <Button
+            android:id="@+id/reduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Удалить" />
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="216dp"
+            android:layout_height="47dp"
+            android:gravity="clip_horizontal"
+            android:text="3"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Создать поле" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="126dp"
+            android:layout_height="59dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="341dp"
+            android:text="Сохранить" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</LinearLayout>

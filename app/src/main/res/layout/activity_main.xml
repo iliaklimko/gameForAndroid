@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="149dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Играть c компьютером" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Настройки" />
+
+    <Button
+        android:id="@+id/playFriend"
+        android:layout_width="169dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="307dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Играть с другом" />
+
+
+</RelativeLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".PlayField"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ButtonStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="40dp"
+                android:text="Начать игру" />
+
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="217dp"
+                android:text="Выйти" />
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/SelectDigit"
+                android:layout_width="216dp"
+                android:layout_height="47dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="75dp"
+                android:gravity="clip_horizontal"
+                android:text="Выберите цифру"
+                android:textSize="24sp" />
+
+
+        </RelativeLayout>
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/buttonsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"/>
+
+
+
+        </HorizontalScrollView>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="174dp"
+                android:text="Результат" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/you"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="255dp"
+                android:text="Вы:" />
+
+            <TextView
+                android:id="@+id/resultYou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="173dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/computer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="123dp"
+                android:text="Друг:" />
+
+            <TextView
+                android:id="@+id/resultComputer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="36dp"
+                android:text="" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/resultPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonNewGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="112dp"
+                android:text="Еще раз сыграть" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
